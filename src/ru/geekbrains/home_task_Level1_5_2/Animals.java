@@ -20,10 +20,10 @@ public abstract class Animals {
     }
 
     public String run (double r) {
-        String resalt;
-        if (r < runLimit) {resalt = " пробежал";}
-           else {resalt = " не смог добежать";}
-       return resalt;
+        String resaltrun;
+        if (r < runLimit) {resaltrun = " пробежал";}
+           else {resaltrun = " не смог добежать";}
+       return resaltrun;
     }
     // Метод jamp можно было расписать здесь, а не в наследниках
     // но поскольку на уроке проходили,
