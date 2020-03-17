@@ -21,7 +21,7 @@ public abstract class Animals {
 
     public String run (double r) {
         String resalt;
-        if (r < runLimit) {resalt = " побежал";}
+        if (r < runLimit) {resalt = " пробежал";}
            else {resalt = " не смог добежать";}
        return resalt;
     }
